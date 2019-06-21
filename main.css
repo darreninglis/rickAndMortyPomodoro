@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Gloria Hallelujah", cursive;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 html {
@@ -101,7 +101,8 @@ footer h1 {
 
 @media only screen and (max-width: 600px) {
 	html {
-		background: url(./assets/bgMobile.jpg) no-repeat bottom center fixed #000;
+		background: url(./assets/bgMobile.jpg) no-repeat bottom center fixed
+			#000;
 	}
 
 	header h1 {
@@ -111,15 +112,19 @@ footer h1 {
 	footer h1 {
 		font-size: 5em;
 	}
+
+	main img {
+		width: 180px;
+	}
+
+	footer {
+		margin-bottom: 0;
+	}
 }
 
 @media only screen and (min-width: 1930px) {
-	main img {
-		width: 800px;
-	}
-
 	main p {
-		font-size: 10em;
+		font-size: 7em;
 	}
 
 	header h1 {
@@ -128,19 +133,5 @@ footer h1 {
 
 	footer h1 {
 		font-size: 5em;
-	}
-}
-
-@media only screen and (max-height: 600px) {
-	main img {
-		width: 180px;
-	}
-
-	footer h1 {
-		font-size: 1.3em;
-	}
-
-	footer {
-		margin-bottom: 0;
 	}
 }
